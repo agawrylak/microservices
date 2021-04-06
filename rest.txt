@@ -1,0 +1,20 @@
+POST:
+localhost:8080/credit/add
+{
+    "creditDTO":{
+      "creditName": "Test"
+    },
+    "customerDTO":{
+      "firstName": "Artur",
+      "peselNumber": 1234,
+      "surname": "Testowy"
+    },
+    "productDTO":{
+      "productName": "test",
+      "value": 1
+    }
+}
+GET:
+localhost:8080/credit/get
+
+      
